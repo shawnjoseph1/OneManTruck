@@ -11,4 +11,3 @@ hamburger.addEventListener('click', function() {
   navbar.style.height = navbar.style.height === '0px' ? '150px' : '0px';
 });
 
-  
