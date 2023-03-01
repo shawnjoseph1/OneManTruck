@@ -9,5 +9,11 @@ function App() {
     </div>
   );
 }
+const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
+
+hamburger.addEventListener('click', function() {
+  navbar.style.height = navbar.style.height === '0px' ? '150px' : '0px';
+});
 
 export default App;
